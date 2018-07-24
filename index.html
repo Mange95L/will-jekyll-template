@@ -1,7 +1,8 @@
 ---
 layout: minimal
+title: "Magnus Landén"
+description: "Web Developer."
 ---
-
 <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Willian Justen">
 
 <h2>About Magnus</h2>
@@ -42,14 +43,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </ul>
 
 <h2>Projetos</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    
     {% for post in site.posts %}
         <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                 <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
